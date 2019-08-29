@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="generator" content="Crystal Docs 0.29.0">
+
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="js/doc.js"></script>
+<script type="text/javascript">
+  CrystalDoc.base_path = "";
+</script>
+
+  <meta id="repository-name" content="github.com/didactic-drunk/sodium.cr">
+  <title>README - github.com/didactic-drunk/sodium.cr</title>
+</head>
+<body>
+
+<div class="sidebar">
+  <div class="sidebar-header">
+    <div class="search-box">
+      <input type="search" class="search-input" placeholder="Search..." spellcheck="false" aria-label="Search">
+    </div>
+
+    <div class="repository-links">
+      <a href="index.html">README</a>
+    </div>
+  </div>
+
+  <div class="search-results" class="hidden">
+    <ul class="search-list"></ul>
+  </div>
+
+  <div class="types-list">
+    <ul>
+  
+  <li class="parent " data-id="github.com/didactic-drunk/sodium.cr/Sodium" data-name="sodium">
+      <a href="Sodium.html">Sodium</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Cipher" data-name="sodium::cipher">
+      <a href="Sodium/Cipher.html">Cipher</a>
+      
+        <ul>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Cipher/ChaCha20" data-name="sodium::cipher::chacha20">
+      <a href="Sodium/Cipher/ChaCha20.html">ChaCha20</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Cipher/ChaCha20Ietf" data-name="sodium::cipher::chacha20ietf">
+      <a href="Sodium/Cipher/ChaCha20Ietf.html">ChaCha20Ietf</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Cipher/Chalsa" data-name="sodium::cipher::chalsa">
+      <a href="Sodium/Cipher/Chalsa.html">Chalsa</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Cipher/Salsa20" data-name="sodium::cipher::salsa20">
+      <a href="Sodium/Cipher/Salsa20.html">Salsa20</a>
+      
+    </li>
+  
+  <li class="parent " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Cipher/SecretStream" data-name="sodium::cipher::secretstream">
+      <a href="Sodium/Cipher/SecretStream.html">SecretStream</a>
+      
+        <ul>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Cipher/SecretStream/XChaCha20Poly1305" data-name="sodium::cipher::secretstream::xchacha20poly1305">
+      <a href="Sodium/Cipher/SecretStream/XChaCha20Poly1305.html">XChaCha20Poly1305</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Cipher/XChaCha20" data-name="sodium::cipher::xchacha20">
+      <a href="Sodium/Cipher/XChaCha20.html">XChaCha20</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Cipher/XSalsa20" data-name="sodium::cipher::xsalsa20">
+      <a href="Sodium/Cipher/XSalsa20.html">XSalsa20</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="github.com/didactic-drunk/sodium.cr/Sodium/CryptoBox" data-name="sodium::cryptobox">
+      <a href="Sodium/CryptoBox.html">CryptoBox</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="github.com/didactic-drunk/sodium.cr/Sodium/CryptoBox/PublicKey" data-name="sodium::cryptobox::publickey">
+      <a href="Sodium/CryptoBox/PublicKey.html">PublicKey</a>
+      
+        <ul>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/CryptoBox/PublicKey/SerializeConverter" data-name="sodium::cryptobox::publickey::serializeconverter">
+      <a href="Sodium/CryptoBox/PublicKey/SerializeConverter.html">SerializeConverter</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/CryptoBox/SecretKey" data-name="sodium::cryptobox::secretkey">
+      <a href="Sodium/CryptoBox/SecretKey.html">SecretKey</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Digest" data-name="sodium::digest">
+      <a href="Sodium/Digest.html">Digest</a>
+      
+        <ul>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Digest/Blake2b" data-name="sodium::digest::blake2b">
+      <a href="Sodium/Digest/Blake2b.html">Blake2b</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Error" data-name="sodium::error">
+      <a href="Sodium/Error.html">Error</a>
+      
+        <ul>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Error/DecryptionFailed" data-name="sodium::error::decryptionfailed">
+      <a href="Sodium/Error/DecryptionFailed.html">DecryptionFailed</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Error/MemcmpFailed" data-name="sodium::error::memcmpfailed">
+      <a href="Sodium/Error/MemcmpFailed.html">MemcmpFailed</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Error/VerificationFailed" data-name="sodium::error::verificationfailed">
+      <a href="Sodium/Error/VerificationFailed.html">VerificationFailed</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Kdf" data-name="sodium::kdf">
+      <a href="Sodium/Kdf.html">Kdf</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Key" data-name="sodium::key">
+      <a href="Sodium/Key.html">Key</a>
+      
+    </li>
+  
+  <li class="parent " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Nonce" data-name="sodium::nonce">
+      <a href="Sodium/Nonce.html">Nonce</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Nonce/Error" data-name="sodium::nonce::error">
+      <a href="Sodium/Nonce/Error.html">Error</a>
+      
+        <ul>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Nonce/Error/Reused" data-name="sodium::nonce::error::reused">
+      <a href="Sodium/Nonce/Error/Reused.html">Reused</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Pwhash" data-name="sodium::pwhash">
+      <a href="Sodium/Pwhash.html">Pwhash</a>
+      
+        <ul>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Pwhash/Mode" data-name="sodium::pwhash::mode">
+      <a href="Sodium/Pwhash/Mode.html">Mode</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Pwhash/PasswordVerifyError" data-name="sodium::pwhash::passwordverifyerror">
+      <a href="Sodium/Pwhash/PasswordVerifyError.html">PasswordVerifyError</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/SecretBox" data-name="sodium::secretbox">
+      <a href="Sodium/SecretBox.html">SecretBox</a>
+      
+    </li>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/SecureBuffer" data-name="sodium::securebuffer">
+      <a href="Sodium/SecureBuffer.html">SecureBuffer</a>
+      
+    </li>
+  
+  <li class="parent " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Sign" data-name="sodium::sign">
+      <a href="Sodium/Sign.html">Sign</a>
+      
+        <ul>
+  
+  <li class="parent " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Sign/PublicKey" data-name="sodium::sign::publickey">
+      <a href="Sodium/Sign/PublicKey.html">PublicKey</a>
+      
+        <ul>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Sign/PublicKey/SerializeConverter" data-name="sodium::sign::publickey::serializeconverter">
+      <a href="Sodium/Sign/PublicKey/SerializeConverter.html">SerializeConverter</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Sign/SecretKey" data-name="sodium::sign::secretkey">
+      <a href="Sodium/Sign/SecretKey.html">SecretKey</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+  <li class="parent " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Wipe" data-name="sodium::wipe">
+      <a href="Sodium/Wipe.html">Wipe</a>
+      
+        <ul>
+  
+  <li class=" " data-id="github.com/didactic-drunk/sodium.cr/Sodium/Wipe/Var" data-name="sodium::wipe::var">
+      <a href="Sodium/Wipe/Var.html">Var</a>
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+      
+    </li>
+  
+</ul>
+
+  </div>
+</div>
+
+
+<div class="main-content">
+<h1>sodium.cr</h1>
+
+<p><a href="https://travis-ci.org/didactic-drunk/sodium.cr" target="_blank"><img src="https://travis-ci.org/didactic-drunk/sodium.cr.svg?branch=master" alt="Build Status"/></a>
+<a href="https://github.com/didactic-drunk/sodium.cr/releases" target="_blank"><img src="https://img.shields.io/github/release/didactic-drunk/sodium.cr.svg" alt="GitHub release"/></a>
+<a href="https://didactic-drunk.github.io/sodium.cr/" target="_blank"><img src="https://img.shields.io/badge/docs-available-brightgreen.svg" alt="Docs"/></a></p>
+
+<p>Crystal bindings for the <a href="https://libsodium.gitbook.io/doc/" target="_blank">libsodium API</a></p>
+
+<h2>Goals</h2>
+
+<ul><li>Provide the most commonly used libsodium API's.</li><li>Provide an easy to use API based on reviewing most other <a href="https://libsodium.gitbook.io/doc/bindings_for_other_languages" target="_blank">libsodium bindings</a>.</li><li>Test for compatibility against other libsodium bindings to ensure interoperability.</li><li>Always provide a stream interface to handle arbitrarily sized data when one is available.</li><li>Drop in replacement classes compatible with OpenSSL::{Digest,Cipher} when possible.</li><li>Use the newest system packaged libsodium or download the most recent stable version without manual configuration.</li></ul>
+
+<h2>Features</h2>
+
+<ul><li><a href="https://libsodium.gitbook.io/doc/public-key_cryptography" target="_blank">Public-Key Cryptography</a></li><ul><li>[x] ☑ <a href="https://libsodium.gitbook.io/doc/public-key_cryptography/authenticated_encryption" target="_blank">Crypto Box Easy</a></li><li>[x] <a href="https://libsodium.gitbook.io/doc/public-key_cryptography/sealed_boxes" target="_blank">Sealed Box</a></li><li>[ ] <a href="https://libsodium.gitbook.io/doc/public-key_cryptography/public-key_signatures" target="_blank">Combined Signatures</a></li><li>[x] ☑ <a href="https://libsodium.gitbook.io/doc/public-key_cryptography/public-key_signatures" target="_blank">Detached Signatures</a></li><li>[ ] <a href="https://libsodium.gitbook.io/doc/public-key_cryptography/public-key_signatures" target="_blank">Pre-hashed Signatures</a></li></ul><li><a href="https://libsodium.gitbook.io/doc/secret-key_cryptography" target="_blank">Secret-Key Cryptography</a></li><ul><li>Secret Box</li><li>[x] ☑ <a href="https://libsodium.gitbook.io/doc/secret-key_cryptography/authenticated_encryption" target="_blank">Combined mode</a></li><li>[ ] <a href="https://libsodium.gitbook.io/doc/secret-key_cryptography/authenticated_encryption" target="_blank">Detached mode</a></li><li>[x] <a href="https://libsodium.gitbook.io/doc/secret-key_cryptography/secretstream" target="_blank">Secret Stream</a></li><li><a href="https://libsodium.gitbook.io/doc/secret-key_cryptography/aead" target="_blank">AEAD</a></li><li>[ ] AES256-GCM (Requires hardware acceleration)</li><li>[ ] XChaCha20-Poly1305-IETF</li><li>[ ] ChaCha20-Poly1305-IETF</li><li>[ ] ChaCha20-Poly1305</li></ul><li><a href="https://libsodium.gitbook.io/doc/hashing" target="_blank">Hashing</a></li><ul><li>[x] ☑ <a href="https://libsodium.gitbook.io/doc/hashing/generic_hashing" target="_blank">Blake2b</a></li><li>[x] Complete libsodium implementation including <code>key</code>, <code>salt</code>, <code>personal</code> and fully selectable output sizes.</li><li>[ ] <a href="https://libsodium.gitbook.io/doc/hashing/short-input_hashing" target="_blank">SipHash</a></li></ul><li><a href="https://libsodium.gitbook.io/doc/password_hashing" target="_blank">Password Hashing</a></li><ul><li>[x] ☑ <a href="https://libsodium.gitbook.io/doc/password_hashing/the_argon2i_function" target="_blank">Argon2</a> (Use for new applications)</li><li>[ ] <a href="https://libsodium.gitbook.io/doc/advanced/scrypt" target="_blank">Scrypt</a> (For compatibility with older applications)</li></ul><li>Other</li><ul><li>[x] <a href="https://libsodium.gitbook.io/doc/key_derivation" target="_blank">Key Derivation</a></li><li>[ ] <a href="https://libsodium.gitbook.io/doc/key_exchange" target="_blank">Key Exchange</a></li></ul><li><a href="https://libsodium.gitbook.io/doc/advanced" target="_blank">Advanced</a></li><ul><li><a href="https://libsodium.gitbook.io/doc/advanced/stream_ciphers" target="_blank">Stream Ciphers</a></li><li>[x] XSalsa20</li><li>[x] Salsa20</li><li>[x] XChaCha20</li><li>[x] ChaCha20 Ietf</li><li>[x] ChaCha20</li><li>[ ] <a href="https://libsodium.gitbook.io/doc/advanced/poly1305" target="_blank">One time auth</a></li><li>[ ] Padding</li></ul><li>Library features</li><ul><li>[x] Faster builds by requiring what you need (<code>require "sodium/secret_box"</code>)</li><li>[x] Nonce reuse detection.</li><li>[x] All SecretKey's held in libsodium guarded memory.</li><li>[ ] Controlled memory wiping (by calling <code>.close</code>)</li></ul></ul>
+
+<p>☑ Indicate specs are compared against test vectors from another source.</p>
+
+<p>Several features in libsodium are already provided by Crystal:</p>
+
+<ul><li>Random (Use <a href="https://crystal-lang.org/api/latest/Random/Secure.html" target="_blank">Random::Secure</a>)</li><li>SHA-2 (Use <a href="https://crystal-lang.org/api/latest/OpenSSL/Digest.html" target="_blank">OpenSSL::Digest</a>)</li><li>HMAC SHA-2 (Use <a href="https://crystal-lang.org/api/latest/OpenSSL/HMAC.html" target="_blank">OpenSSL::HMAC</a>)</li><li>Hex conversion (Use <a href="https://crystal-lang.org/api/latest/String.html#hexbytes%3ABytes-instance-method" target="_blank">String#hexbytes</a>)</li></ul>
+
+<h2>What should I use for my application?</h2>
+
+<p>| Class | |
+| --- | --- |
+| Only use <code>CryptoBox::SecretKey</code> <code>Sign::SecretKey</code> <code>SecretBox</code> | I don't know much about crypto. |
+| <a href="https://didactic-drunk.github.io/sodium.cr/Sodium/CryptoBox/SecretKey.html" target="_blank"><code>Sodium::CryptoBox::SecretKey</code></a> .box | I want to encrypt + authenticate data using public key encryption. |
+| <a href="https://didactic-drunk.github.io/sodium.cr/Sodium/CryptoBox/PublicKey.html" target="_blank"><code>Sodium::CryptoBox::SecretKey</code></a> .encrypt | I want anonymously send encrypted data. (No signatures) |
+| <a href="https://didactic-drunk.github.io/sodium.cr/Sodium/Sign/SecretKey.html" target="_blank"><code>Sodium::Sign::SecretKey</code></a> | I want to sign or verify messages. (No encryption) |
+| <a href="https://didactic-drunk.github.io/sodium.cr/Sodium/SecretBox.html" target="_blank"><code>Sodium::SecretBox</code></a> | I have a shared key and want to encrypt + authenticate data. |
+| <a href="https://didactic-drunk.github.io/sodium.cr/Sodium/Cipher/SecretStream/XChaCha20Poly1305.html" target="_blank"><code>Sodium::Cipher::SecretStream</code></a>, AEAD | I have a shared key and want encrypt + authenticate streamed data. |
+| <a href="https://didactic-drunk.github.io/sodium.cr/Sodium/Digest::Blake2b.html" target="_blank"><code>Sodium::Digest::Blake2b</code></a> | I want to hash data fast and securely. |
+| <code>Sodium::Digest::SipHash</code> | I want to hash data really fast and less securely. (Not implemented yet) |
+| <a href="https://didactic-drunk.github.io/sodium.cr/Sodium/Pwhash.html" target="_blank"><code>Sodium::Pwhash</code></a> | I want to hash a password and store it. |
+| <a href="https://didactic-drunk.github.io/sodium.cr/Sodium/Pwhash.html" target="_blank"><code>Sodium::Pwhash</code></a> | I want to derive a key from a password. |
+| <a href="https://didactic-drunk.github.io/sodium.cr/Sodium/Kdf.html" target="_blank"><code>Sodium::Kdf</code></a> | I have a high quality master key and want to make subkeys. |
+| <a href="https://didactic-drunk.github.io/sodium.cr/Sodium/Cipher/Chalsa.html" target="_blank"><code>Sodium::Cipher::Chalsa</code></a> | What goes with guacamole? |
+| Everything else | I want to design my own crypto protocol and probably do it wrong. |</p>
+
+<h2>Installation</h2>
+
+<p><strong><a href="https://download.libsodium.org/doc/installation/" target="_blank">Optionally Install libsodium.</a></strong>
+A recent version of libsodium is automatically downloaded and compiled if you don't install your own version.</p>
+
+<p>Add this to your application's <code>shard.yml</code>:</p>
+
+<pre><code class="language-yaml">dependencies:
+  sodium.cr:
+    github: didactic-drunk/sodium.cr</code></pre>
+
+<h2>Usage</h2>
+
+<p>See <code>examples</code> for help on using these classes in a complete application.</p>
+
+<p>The <code>specs</code> provide the best examples of how to use or misuse individual classes.</p>
+
+<p>You may call <code>.close</code> on any object that retains keying material to wipe it's key(s) earlier.
+Objects with a  <code>.close</code> method also respond to <code>Class.open</code> and wipe when the block returns.</p>
+
+<pre><code class="language-crystal"><span class="c"># TODO</span>
+<span class="t">Sodium</span><span class="t">::</span><span class="t">CryptoBox</span><span class="t">::</span><span class="t">SecretKey</span>.open(sec_key, pub_key) <span class="k">do</span> <span class="o">|</span>secret_key<span class="o">|</span>
+ ... <span class="t">Do</span> crypto operations ...
+<span class="k">end</span>
+<span class="c"># sec_key is wiped</span>
+<span class="c"># public keys aren&#39;t wiped.</span>
+</code></pre>
+
+<h3>CryptoBox authenticated easy encryption</h3>
+
+<pre><code class="language-crystal"><span class="k">require</span> <span class="s">&quot;sodium&quot;</span>
+
+data <span class="o">=</span> <span class="s">&quot;Hello World!&quot;</span>
+
+<span class="c"># Alice is the sender</span>
+alice <span class="o">=</span> <span class="t">Sodium</span><span class="t">::</span><span class="t">CryptoBox</span><span class="t">::</span><span class="t">SecretKey</span>.<span class="k">new</span>
+
+<span class="c"># Bob is the recipient</span>
+bob <span class="o">=</span> <span class="t">Sodium</span><span class="t">::</span><span class="t">CryptoBox</span><span class="t">::</span><span class="t">SecretKey</span>.<span class="k">new</span>
+
+<span class="c"># Precompute a shared secret between alice and bob.</span>
+box <span class="o">=</span> alice.box bob.public_key
+
+<span class="c"># Encrypt a message for Bob using his public key, signing it with Alice&#39;s</span>
+<span class="c"># secret key</span>
+nonce, encrypted <span class="o">=</span> box.encrypt data
+
+<span class="c"># Precompute within a block.  The shared secret is wiped when the block exits.</span>
+bob.box alice.public_key <span class="k">do</span> <span class="o">|</span>box<span class="o">|</span>
+  <span class="c"># Decrypt the message using Bob&#39;s secret key, and verify its signature against</span>
+  <span class="c"># Alice&#39;s public key</span>
+  decrypted <span class="o">=</span> <span class="t">Sodium</span>.decrypt(encrypted, nonce, alice.public, bob.secret)
+
+  <span class="t">String</span>.<span class="k">new</span>(decrypted) <span class="c"># =&gt; &quot;Hello World!&quot;</span>
+<span class="k">end</span></code></pre>
+
+<h3>Unauthenticated public key encryption</h3>
+
+<pre><code class="language-crystal">data <span class="o">=</span> <span class="s">&quot;Hello World!&quot;</span>
+
+<span class="c"># Bob is the recipient</span>
+bob <span class="o">=</span> <span class="t">Sodium</span><span class="t">::</span><span class="t">CryptoBox</span><span class="t">::</span><span class="t">SecretKey</span>.<span class="k">new</span>
+
+<span class="c"># Encrypt a message for Bob using his public key</span>
+encrypted <span class="o">=</span> bob.public_key.encrypt data
+
+<span class="c"># Decrypt the message using Bob&#39;s secret key</span>
+decrypted <span class="o">=</span> bob.decrypt encrypted
+<span class="t">String</span>.<span class="k">new</span>(decrypted) <span class="c"># =&gt; &quot;Hello World!&quot;</span></code></pre>
+
+<h3>Public key signing</h3>
+
+<pre><code class="language-crystal">message <span class="o">=</span> <span class="s">&quot;Hello World!&quot;</span>
+
+secret_key <span class="o">=</span> <span class="t">Sodium</span><span class="t">::</span><span class="t">Sign</span><span class="t">::</span><span class="t">SecretKey</span>.<span class="k">new</span>
+
+<span class="c"># Sign the message</span>
+signature <span class="o">=</span> secret_key.sign_detached message
+
+<span class="c"># Send secret_key.public_key to the recipient</span>
+
+<span class="c"># On the recipient</span>
+public_key <span class="o">=</span> <span class="t">Sodium</span><span class="t">::</span><span class="t">Sign</span><span class="t">::</span><span class="t">PublicKey</span>.<span class="k">new</span> key_bytes
+
+<span class="c"># raises Sodium::Error::VerificationFailed on failure.</span>
+public_key.verify_detached message, signature</code></pre>
+
+<h3>Secret Key Encryption</h3>
+
+<pre><code class="language-crystal">key <span class="o">=</span> <span class="t">Sodium</span><span class="t">::</span><span class="t">SecretKey</span>.<span class="k">new</span>
+
+message <span class="o">=</span> <span class="s">&quot;foobar&quot;</span>
+encrypted, nonce <span class="o">=</span> key.encrypt message
+
+<span class="c"># On the other side.</span>
+key <span class="o">=</span> <span class="t">Sodium</span><span class="t">::</span><span class="t">SecretKey</span>.<span class="k">new</span> key
+message <span class="o">=</span> key.decrypt encrypted, nonce</code></pre>
+
+<h3>Blake2b</h3>
+
+<pre><code class="language-crystal">key <span class="o">=</span> <span class="t">Bytes</span>.<span class="k">new</span> <span class="t">Sodium</span><span class="t">::</span><span class="t">Digest</span><span class="t">::</span><span class="t">Blake2B</span><span class="t">::</span><span class="t">KEY_SIZE</span>
+salt <span class="o">=</span> <span class="t">Bytes</span>.<span class="k">new</span> <span class="t">Sodium</span><span class="t">::</span><span class="t">Digest</span><span class="t">::</span><span class="t">Blake2B</span><span class="t">::</span><span class="t">SALT_SIZE</span>
+personal <span class="o">=</span> <span class="t">Bytes</span>.<span class="k">new</span> <span class="t">Sodium</span><span class="t">::</span><span class="t">Digest</span><span class="t">::</span><span class="t">Blake2B</span><span class="t">::</span><span class="t">PERSONAL_SIZE</span>
+out_size <span class="o">=</span> <span class="n">64</span> <span class="c"># bytes between Sodium::Digest::Blake2B::OUT_SIZE_MIN and Sodium::Digest::Blake2B::OUT_SIZE_MAX</span>
+data <span class="o">=</span> <span class="s">&quot;data&quot;</span>.to_slice
+
+<span class="c"># output_size, key, salt, and personal are optional.</span>
+digest <span class="o">=</span> <span class="t">Sodium</span><span class="t">::</span><span class="t">Digest</span><span class="t">::</span><span class="t">Blake2b</span>.<span class="k">new</span> out_size, key: key, salt: salt, personal: personal
+digest.update data
+output <span class="o">=</span> d.hexdigest
+
+digest.reset <span class="c"># Reuse existing object to hash again.</span>
+digest.update data
+output <span class="o">=</span> d.hexdigest</code></pre>
+
+<h3>Key derivation</h3>
+
+<pre><code class="language-crystal">kdf <span class="o">=</span> <span class="t">Sodium</span><span class="t">::</span><span class="t">Kdf</span>.<span class="k">new</span>
+
+<span class="c"># kdf.derive(8_byte_context, subkey_id, subkey_size)</span>
+subkey1 <span class="o">=</span> kdf.derive <span class="s">&quot;context1&quot;</span>, <span class="n">0</span>, <span class="n">16</span>
+subkey2 <span class="o">=</span> kdf.derive <span class="s">&quot;context1&quot;</span>, <span class="n">1</span>, <span class="n">16</span>
+subkey3 <span class="o">=</span> kdf.derive <span class="s">&quot;context2&quot;</span>, <span class="n">0</span>, <span class="n">32</span>
+subkey4 <span class="o">=</span> kdf.derive <span class="s">&quot;context2&quot;</span>, <span class="n">1</span>, <span class="n">64</span></code></pre>
+
+<h3>Password Hashing</h3>
+
+<pre><code class="language-crystal">pwhash <span class="o">=</span> <span class="t">Sodium</span><span class="t">::</span><span class="t">Pwhash</span>.<span class="k">new</span>
+
+pwhash.memlimit <span class="o">=</span> <span class="t">Sodium</span><span class="t">::</span><span class="t">Pwhash</span><span class="t">::</span><span class="t">MEMLIMIT_MIN</span>
+pwhash.opslimit <span class="o">=</span> <span class="t">Sodium</span><span class="t">::</span><span class="t">Pwhash</span><span class="t">::</span><span class="t">OPSLIMIT_MIN</span>
+
+pass <span class="o">=</span> <span class="s">&quot;1234&quot;</span>
+hash <span class="o">=</span> pwhash.hash_str pass
+pwhash.verify hash, pass</code></pre>
+
+<p>Use <code>examples/pwhash_selector.cr</code> to help choose ops/mem limits.</p>
+
+<p>Example output:
+Ops limit →</p>
+
+<p>|          |       1 |       4 |      16 |      64 |     256 |    1024 |    4096 |   16384 |   65536 |  262144 | 1048576 |
+| -------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+|       8K |         |         |         |         |         |         |         |         |         |  0.542s |  2.114s |
+|      32K |         |         |         |         |         |         |         |         |  0.513s |  2.069s |
+|     128K |         |         |         |         |         |         |         |  0.530s |  2.121s |
+|     512K |         |         |         |         |         |         |  0.566s |  2.237s |
+|    2048K |         |         |         |         |         |  0.567s |  2.290s |
+|    8192K |         |         |         |         |  0.670s |  2.542s |
+|   32768K |         |         |         |  0.684s |  2.777s |
+|  131072K |         |         |  0.805s |  3.106s |
+|  524288K |  0.504s |  1.135s |  3.661s |
+| 2097152K |  2.119s |
+|   Memory |</p>
+
+<h2>Contributing</h2>
+
+<ol><li>Fork it ( https://github.com/didactic-drunk/sodium.cr/fork )</li><li><strong>Install a formatting check git hook (ln -sf ../../scripts/git/pre-commit .git/hooks)</strong></li><li>Create your feature branch (git checkout -b my-new-feature)</li><li>Commit your changes (git commit -am 'Add some feature')</li><li>Push to the branch (git push origin my-new-feature)</li><li>Create a new Pull Request</li></ol>
+
+<h2>Project History</h2>
+
+<ul><li>Originally created by <a href="https://github.com/andrewhamons/cox" target="_blank">Andrew Hamon</a></li><li>Forked by <a href="https://github.com/didactic-drunk/cox" target="_blank">Didactic Drunk</a> for lack of updates in the original project.</li><li>Complaints about the name being too controversial.  Project name changed from "cox" to a more libsodium related name of "salty seaman".</li><li>~50% complete libsodium API.</li><li>More complaints about the name.  Dead hooker jokes added.</li><li>None of the original API is left.</li><li>More complaints threatening a boycott.  Told them "Go ahead, I own Coca Cola and Water".</li><li>Account unsuspended.</li><li>Unrelated to the boycott the project name changed to "libsodium" because sodium happens to be a tasty byproduct of the two earlier names.</li><li>Account unsuspended.</li><li>Dead hooker jokes (mostly) removed.</li></ul>
+
+<h2>Contributors</h2>
+
+<ul><li><a href="https://github.com/andrewhamon" target="_blank">andrewhamon</a> Andrew Hamon - creator, former maintainer</li><li><a href="https://github.com/dorkrawk" target="_blank">dorkrawk</a> Dave Schwantes - contributor</li><li><a href="https://github.com/didactic-drunk" target="_blank">didactic-drunk</a> - current maintainer</li></ul>
+</div>
+</body>
+</html>
